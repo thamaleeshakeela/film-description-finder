@@ -109,7 +109,7 @@ function search(){
     let inputTag = document.getElementById('name')
     let movieName = (inputTag.value)
     let key = "d67a9431"
-    let url = 'http://www.omdbapi.com/?apikey = d67a9431'+'&t='+movieName
+    let url = 'http://www.omdbapi.com/?apikey=d67a9431'+'&t='+movieName
     console.log(url)
 
     let httpRequest = new XMLHttpRequest()
